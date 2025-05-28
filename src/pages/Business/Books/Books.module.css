@@ -1,0 +1,127 @@
+/* Books.module.css */
+
+.booksSection {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 0 2rem 3rem;
+    font-family: "Georgia", serif;
+    color: #1a1a1a;
+  }
+  
+  .pageTitle {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: #00303f;
+    text-align: center;
+  }
+  
+  .intro {
+    font-size: 1.3rem;
+    color: #004d66;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-style: italic;
+  }
+  
+  .booksGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+  }
+  
+  .bookCard {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .bookCard:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .bookCover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px solid #004d66;
+    box-shadow: inset 0 -3px 8px rgb(0 77 102 / 0.25);
+  }
+  
+  .bookDetails {
+    padding: 1.8rem 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .bookTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #004d66;
+    margin-bottom: 0.6rem;
+    letter-spacing: 0.03em;
+  }
+  
+  .synopsis {
+    font-size: 1.05rem;
+    color: #3a3a3a;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+  }
+  
+  .themes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .theme {
+    background-color: #007a99;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    user-select: none;
+  }
+  
+  .buyButton {
+    background-color: #007a99;
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 5px 12px rgb(0 122 153 / 0.6);
+    transition: background-color 0.3s ease;
+  }
+  
+  .buyButton:hover,
+  .buyButton:focus {
+    background-color: #005f70;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .comingSoon {
+    color: #aaa;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    user-select: none;
+  }
+  
