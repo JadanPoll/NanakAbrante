@@ -1,3 +1,6 @@
 node_modules
-dist
-.vite
+web_modules
+.firebase
+.firebaserc
+.glitchdotcom.json
+build
