@@ -50,7 +50,7 @@ const Books = () => {
     <section className={styles.booksSection}>
       <h1 className={styles.pageTitle}>Literary Works</h1>
       <p className={styles.intro}>
-        Discover Nanak Abrantee’s literary journey — from self-discovery to inspiring action.
+        Nanak Abrantee’s literary journey — from self-discovery to inspiring action.
       </p>
       <div className={styles.booksGrid}>
         {books.map(({ title, cover, synopsis, themes, buyLink }) => (

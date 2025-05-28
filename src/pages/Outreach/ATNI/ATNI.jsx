@@ -11,25 +11,31 @@ const ATNI = () => {
         </p>
       </header>
 
-      <article className={styles.content}>
-        <section className={styles.missionSection}>
+      <div className={styles.zSection}>
+        <div className={styles.zLeft}>
           <h2>Our Mission</h2>
           <p>
             ATNI is dedicated to youth empowerment and the unleashing of great potentials.
             Founded by Nanak Abrantee, our network inspires, mentors, and provides tangible
             avenues for young people to amplify their voices through publication and outreach.
           </p>
-        </section>
+        </div>
+        <div className={styles.zSpacer}></div>
+      </div>
 
-        <section className={styles.visionSection}>
+      <div className={styles.zSection}>
+        <div className={styles.zSpacer}></div>
+        <div className={styles.zRight}>
           <h2>Our Vision</h2>
           <p>
             We envision a world where every young person has the opportunity, support, and platform
             to turn their ideas and passions into impactful realities that benefit communities globally.
           </p>
-        </section>
+        </div>
+      </div>
 
-        <section className={styles.initiativesSection}>
+      <div className={styles.zSection}>
+        <div className={styles.zLeft}>
           <h2>Key Initiatives & Impact</h2>
           <ul>
             <li>Organized conferences and outreach projects reaching over 5,000 youth worldwide.</li>
@@ -37,9 +43,13 @@ const ATNI = () => {
             <li>Empowering youth voices via publications and creative projects.</li>
             <li>Awarded Second Runner-up at the Ashesi Design Lab: Future Learning Hackathon, 2020.</li>
           </ul>
-        </section>
+        </div>
+        <div className={styles.zSpacer}></div>
+      </div>
 
-        <section className={styles.impactStoriesSection}>
+      <div className={styles.zSection}>
+        <div className={styles.zSpacer}></div>
+        <div className={styles.zRight}>
           <h2>Impact Stories</h2>
           <blockquote>
             “ATNI gave me the tools and confidence to present my ideas and connect with like-minded
@@ -49,9 +59,11 @@ const ATNI = () => {
             “Through ATNI’s mentorship and platform, I published my first article and discovered my
             voice in advocacy.” – Young Leader
           </blockquote>
-        </section>
+        </div>
+      </div>
 
-        <section className={styles.getInvolvedSection}>
+      <div className={styles.zSection}>
+        <div className={styles.zLeft}>
           <h2>Get Involved</h2>
           <p>
             Interested in supporting ATNI or joining our youth network? Here are some ways to engage:
@@ -74,8 +86,9 @@ const ATNI = () => {
           >
             Visit Nanak Abrantee’s Website
           </a>
-        </section>
-      </article>
+        </div>
+        <div className={styles.zSpacer}></div>
+      </div>
     </section>
   );
 };
